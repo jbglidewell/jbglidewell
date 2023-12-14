@@ -1,4 +1,10 @@
 *{
-  background-color: hsl(195, 73%, 68%); 
-  margin: 40px 100px 120px 80px; 
+  background-color: hsl(195, 73%, 68%);
+}
+
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
