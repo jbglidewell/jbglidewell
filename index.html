@@ -2,7 +2,77 @@
 <html>
   <head>
     <title>Jacob Glidewell</title>
-    <link href="/mystyle.css" rel="stylesheet"/>
+    <!--<link href="/mystyle.css" rel="stylesheet"/>-->
+	<style>
+*{
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+/* Individual Piece of Content that looks nice */
+.blurb {
+  background-color: PapayaWhip;
+  color: black;
+  width: 1000px;
+  height: 500px;
+  border: 10px solid hsl(0, 52%, 77%);
+  padding: 50px;
+  margin: 20px;
+}
+
+.shortBlurb{
+  background-color: PapayaWhip;
+  color: black;
+  width: 1000px;
+  height: 250px;
+  border: 10px solid hsl(0, 52%, 77%);
+  padding: 10px;
+  margin: 20px;
+
+}
+
+</style>
   </head>
   <body>
     <div>
@@ -19,29 +89,33 @@
         </ol>
       </div>
       <div class="content">
-        <div id="bio">
-          <h2>Bio</h2>
-          <p>I am an undergraduate in mathematics at the University of Alabama, applying to graduate schools for Fall 2024. This is my work-in-progress website that I am building to house my research, math competition resources, and general thoughts as I go through this journey.</p>
-        </div>
-        <div id="research">
-          <h2>Research Interests</h2>
-          <p>I am interested in harmonic analysis.</p>
-        </div>
-        <div id="resources">
-          <h2>Resources and Books</h2>
-          <p>These are my book recommendations.</p>
-        </div>
-        <div id="thoughts">
-          <h2>Thoughts on math education and competitions.</h2>
-          <p>Math competitions are cool.</p>
+	      <div class="shortBlurb">
+          <div id="bio">
+            <h2>Bio</h2>
+            <p>I am an undergraduate senior in mathematics at the University of Alabama, applying to graduate schools for Fall 2024. I will graduate with a double major in Mathematics and Physics and a master's in Mathematics through UA's accelerated master's program (making me the first in my family with a graduate degree). I fell in love with mathematics at a young age where I began competing in math competitions.</p> 
+            <p>This is my work-in-progress website that I am building to house my research, math competition resources, and general thoughts as I go through this journey.</p>
+          </div>
+	      </div>
+	      <div class="shortBlurb">
+          <div id="research">
+            <h2>Research Interests</h2>
+            <p>I am interested in harmonic and functional analysis and how these are useful in informing other branches of mathematics, such as number theory and combinatorics. </p>
+	          <p>As an undergraduate, I worked on <a href="https://arxiv.org/search/math?query=Glidewell&searchtype=all&abstracts=show&order=-announced_date_first&size=50">two papers</a> which can both be found on arxiv. One is in algebra/combinatorics and one is in harmonic/functional analysis. I am also currently finishing up my master's thesis which is in classical analysis.</p>
+          </div>
+	      </div>
+      	<div class="blurb">
+          <div id="resources">
+            <h2>Resources and Books</h2>
+            <p>This section is for students, parents, or teachers interested in finding resources which form supplements to a traditional math education. I have many thoughts on book and resource recommendations for all levels 3rd grade through college, more with the perspective of math competitions as that is my background, but still would be helpful for anyone wanting to learn more math. I will slowly be adding these over time. <br/> I am also in the process of writing notes (or maybe a book?) on how I think middle math should be presented as I do not think it is currently done in a logically way.</p>
+          </div>
+	      </div>
+	      <div class="blurb">
+          <div id="thoughts">
+            <h2>Thoughts on math education and competitions.</h2>
+            <p>Math competitions are cool, fun, and most important, can act as supplement to improve a students math education regardless if they are interested in pursuing math in college. Again, I will be slowly adding my thoughts on this topic which should motivate my choices of books above.</p>
+          </div>
         </div>
       </div>
     </div>
-
-    
   </body>
-
-
-
-  
 </html>
