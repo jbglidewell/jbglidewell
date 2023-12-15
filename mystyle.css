@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  background-color: hsl(0, 0, 74);
 }
 
 .header {
